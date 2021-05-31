@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 #logo-nav{
     height: 65px;
     width: auto;
@@ -35,4 +39,28 @@
 
 .coluna-page{
     position: fixed!important;
+}
+
+th{
+    padding: 0% !important;
+    font-weight: normal !important;
+    text-align: center !important;
+    border: solid #212529 0.3px;
+}
+
+td{
+    padding: 0% !important;
+    text-align: center !important;
+    border: solid #212529 0.3px;
+}
+
+.option-book{
+    cursor:pointer;
+}
+.option-book:hover{
+    filter: brightness(92%);
+}
+
+.border-start-0{
+    border-left: 0% !important;
 }

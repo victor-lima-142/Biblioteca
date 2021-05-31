@@ -6,7 +6,9 @@ class LivroController extends \Phalcon\Mvc\Controller
 
     public function indexAction()
     {
-        return $this->view->pick('livros/listar');
+        $livros = Livro::find();
+        $this->view->setVar('livros', $livros);
+        $this->view->pick('livros/listar');
     }
 
 }
