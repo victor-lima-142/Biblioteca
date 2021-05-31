@@ -1,0 +1,38 @@
+#logo-nav{
+    height: 65px;
+    width: auto;
+}
+
+.material-icons-lg{
+    font-size: 46px !important;
+}
+
+.material-icons-md{
+    font-size: 28px !important;
+}
+
+.nav-link{
+    color: #3db1c8 !important;
+}
+
+.btn{
+    border-radius: 0% !important;
+}
+
+.btn-custom{
+    color: #212529 !important;
+    background-color: #3db1c8 !important;
+}
+
+.btn-custom:hover{
+    color: #212529 !important;
+    background-color: #39a4b9 !important;
+}
+
+.text-custom{
+    color: #3db1c8 !important
+}
+
+.coluna-page{
+    position: fixed!important;
+}
